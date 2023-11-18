@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    font-weight: bold;
+    font-size: large;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+a{
+    color: rgb(52, 71, 196);
+    text-decoration: none;
+}
+a:hover{
+    background-color: pink;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+title{
+    float: left;
+}
